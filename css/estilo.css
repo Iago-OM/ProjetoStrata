@@ -1,0 +1,637 @@
+/** blocos primarios*/
+body{
+ 
+  font-family: sans-serif;
+}
+header{
+  width: 30%;
+  height: 100%;
+  background-color: red;
+ position: fixed;
+ font-size: 10px;
+ text-align: right;
+ color: white;
+
+}
+main{
+  color: rgb(92, 92, 92);
+  margin-left: 35%;
+ 
+  position: absolute;
+  top: 150px;
+  left: 20px;
+ 
+}
+
+
+/**config header*/
+.perfil-img{
+  border-radius: 100%;
+ 
+}
+.h-head{
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+strong{
+  color: white;
+}
+.p-head{
+  margin-top: 50px;
+  font-size: 15px;
+  color: rgba(204, 204, 204, 0.6);
+ 
+}
+.p-head, a{
+  
+  color: rgba(92, 92, 92, 0.582);
+}
+.head{
+  margin-top: 110px;
+  margin-right: 40px;
+}
+.main-header{
+  background-image: url(../images/bg.jpg);
+}
+
+/** Config Main e suas sections*/
+/** primeira section*/
+
+ h2{
+  font-size: 30px;
+  color: rgb(92, 92, 92);
+}
+.div-veja{
+  padding: 10px;
+  width: 75px;
+  
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.479);
+  border-radius: 3px 3px 3px 3px;
+}
+.button-default{
+  text-decoration: none;
+}
+.div-veja:hover{
+  background-color:#24F23A;
+}
+
+/** section works*/
+
+.works{
+  display: inline-block;
+}
+.works-gallery{
+ 
+  width: 45%;
+  text-align: center;
+  float: left;
+ 
+
+}
+.works-gallery img{
+  max-width: 250px; max-height: 275px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.works-gallery a{
+ 
+  font-weight: bold;
+  text-decoration: none;
+  float: left;
+  margin-left: 80px;
+
+}
+.works-gallery p{
+  
+  padding: 10px;
+}
+
+.veja-port{
+  padding: 7px;
+  
+  width: 190px;
+  height: 20px;
+  margin-top: 700px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  border: none ;
+  border-radius: 5px 5px 5px 5px;
+ background-color: #24F23A;
+}
+.veja-port:hover{
+  background-color: white;
+}
+.veja-port a{
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+.veja-port a:hover{
+  color: black;
+}
+/**section GET*/
+
+.form1{
+
+  width: 850px;
+  height: 350px ;
+  
+}
+
+
+.form1 fieldset{
+  width: 100%;
+ border: none;
+  position: relative;
+  right: 65px;
+}
+.label-msg{
+  display:block;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+
+.name-email-get input{
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  margin-right: 30px;
+  margin-top: 25px;
+   background-color: #ccc;
+   display: inline;
+ 
+}
+.name-email-get label{
+  display: inline;
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+}
+#msg{
+  margin-top: 5px;
+  margin-left: 50px;
+  width: 450px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ccc;
+  border: none  ;
+}
+.Enviar-get{
+
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+  border-radius: 3px 3px 3px 3px;
+  border: 1px;
+}
+.Enviar-get:hover{
+ background-color:#24F23A;
+}
+
+
+
+/** section Elements */
+
+.elements h1{
+  font-size: 50px;
+}
+.elements h2{
+  font-size: 40px ;
+}
+.elements h3{
+  font-size: 30px ;
+}
+.elements h4{
+  font-size: 20px ;
+}
+
+/** section preformatado*/
+
+
+#box-text{
+  
+  padding: 50px;
+  border: solid 1px rgba(0, 0, 0, 0.123);
+  margin-left: 25px;
+}
+
+/** section listas*/
+
+
+#div-list{
+  font-size: 20px;
+  display:inline-block;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+#div-list dl{
+ margin-left: 30px;
+}
+#div-list img{
+  width: 40px;
+  height: 40px;
+}
+#ul-icon{
+  
+  list-style: none;
+
+
+}
+#ul-icon li{
+  margin-left: 10px;
+  margin-right: 15px;
+  display: inline;
+}
+
+
+/** Section actions*/
+
+.action{
+
+  height: 300px;
+}
+.action fieldset{
+  border: none;
+  height: 220px;
+}
+.action div{
+  display: inline-block;
+  
+}
+
+.action button{
+  padding: 10px;
+  
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+
+}
+#b1{
+  
+  margin-bottom: 20px;
+}
+#b2 button, #b4 button{
+ 
+  width: 300px;
+  
+}
+#b3{
+  
+  margin-right: 400px;
+  margin-top: 10px;
+
+}
+#b4{
+  text-align: center;
+  height: 200px;
+
+  margin-left: 400px;
+  position: relative;
+  left: 50px;
+}
+#b4 button{
+  width: 400px;
+  position: relative;
+  right: 25px;
+  bottom: 25px;
+}
+#b2 {
+  margin-left: 100px;
+  
+  height: 100px;
+  width: 500px;
+  position: relative;
+  left: 70px;
+  text-align: center;
+  
+}
+#b2 button{
+  width: 400px;
+  position: relative;
+  left: 49px;
+}
+#b1 button{
+  width: 80px;
+  height: 50px;
+  
+}
+#b1{
+  
+  position: relative;
+  bottom: 30px;
+}
+#b3 button{
+  height: 35px;
+  width: 75px;
+  position: relative;
+ 
+  
+}
+#b3{
+  position: relative;
+  bottom: 40px;
+}
+
+/**  Section Table   */
+
+.table1{
+ 
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  
+}
+.table1 caption{
+  text-align: left;
+  margin-bottom: 10px;
+}
+.table1 th{
+  background-color:rgb(129, 121, 121);
+  padding: 10px;
+  border-bottom: 2px solid;
+  text-align: left;
+
+}
+.table1 tbody{
+ 
+  padding: 10px ;
+}.table1 td{
+  padding: 10px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.486);
+  
+}
+
+.table2{
+ 
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  
+}
+.table2 caption{
+  text-align: left;
+  margin-bottom: 10px;
+}
+.table2 th{
+  background-color:rgb(129, 121, 121);
+  padding: 10px;
+  border-bottom: 2px solid;
+  text-align: left;
+
+}
+.table2 tbody{
+ 
+  padding: 10px ;
+}.table2 td{
+  padding: 10px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.322);
+  
+}
+#tr2, #tr4{
+  background-color: #ccc;
+}
+
+
+
+/**   Section Buttons */
+.buttom{
+  margin-bottom: 30px;
+}
+.buttom div{
+
+  height: 400px;
+}
+
+.buttom fieldset{
+  border: none;
+  width: 100%;
+}
+#div-b{
+  display: block;
+
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+}
+#div-b0 button{
+  padding: 10px;
+  background-color: #24F23A;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  display: inline;
+  margin-right: 5px;
+  width: 80px;
+  color: white;
+
+}
+#div-b0{
+ 
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+#div-b button:hover{background-color: white;
+color: black;}
+
+#div-b1 button{
+  padding: 10px;
+  background-color: #24F23A;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  display: inline;
+  margin-right: 5px;
+  width: 60px;
+  color: white;
+
+}
+#div-b1{
+ 
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+#div-b2 button{
+  padding: 10px;
+  background-color: #24F23A;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  display: block;
+  margin-right: 5px;
+  width: 80px;
+  color: white;
+
+}
+#div-b2{
+ 
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+#div-b3 button{
+  padding: 10px;
+  background-color: #24F23A;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  display: block;
+  margin-right: 5px;
+  width: 80px;
+  color: white;
+
+}
+#div-b3{
+ 
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+#div-label-b{
+ 
+  width: 80px;
+  height: 60px;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+#div-label-b input{
+  padding: 15px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  position: relative;
+  bottom: 15px;
+  background-color: #ccc;
+}
+#div-label-b input:hover{
+  background-color: #24F23A;
+}
+
+/** section forms*/
+
+
+.forms legend{
+ margin-bottom: 25px;
+margin-top: 15px;
+}
+.forms fieldset{
+  width: 100%;
+  border: none;
+}
+.forms label, input{
+
+  display: block;
+
+}
+.forms label{
+  margin-bottom: 5px;
+}
+.forms input{
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+.forms select{
+  width: 102%;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+#label-input-radio{
+
+  text-align: left;
+  width:200px;
+  display: block;
+
+}
+#label-input-radio  label{
+ 
+
+  padding: 10px;
+ width: 250px;
+ position: relative;
+ left: 20px;
+  
+}
+#label-input-radio input{
+position: relative;
+right: 150px;
+top: 30px;
+
+}
+#label-input-check{
+ 
+  display: block;
+  width: 250px;
+  margin-bottom: 30px;
+  
+
+}
+#label-input-check input{
+  position: relative;
+  right: 130px;
+  top: 30px;
+}
+#label-input-check label{
+  margin-left: 30px;
+}
+#div-text textarea{
+width: 100%;
+background-color: #ccc;
+border: none;
+border-radius: 5px 5px 5px 5px;
+}
+
+#div-submit {
+  width: 80px;
+  display: inline;
+  margin-top: 10px;
+  margin-right: 15px;
+  background-color: #ccc;
+border: none;
+border-radius: 5px 5px 5px 5px;
+margin-left: 15px;
+}
+#div-submit:hover{background-color: #24F23A;}
+
+.imagem img{
+  border-radius: 10px 10px 10px 10px;
+}
+#div-img-section{
+  
+  margin-top: 10px;
+ 
+}
+#div-img-section img{
+height: 150px;
+width: 239px;
+display: inline;
+margin: 10px 10px 10px 0;
+
+}
+
+
+
+
+
+.avatar-text{
+ float: left ;
+ 
+}
+.p-sectiontext{
+  margin-top: 100px;
+}
+.avatar-text2{
+  float: left ;
+  
+ }
